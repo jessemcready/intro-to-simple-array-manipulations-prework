@@ -30,6 +30,14 @@ def using_insert(array, element)
   array.insert(3, element)  
 end
 
-def using_unique(array)
-  array.unique  
+def using_uniq(array)
+  array.uniq!  
 end
+
+def using_flatten(array)
+    
+end
+
+
+
+
